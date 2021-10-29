@@ -1,0 +1,134 @@
+@media only screen and (max-width:600px){
+body {
+  margin: 0px;
+  padding: 0px;
+  display: block;
+}
+}
+
+nav {
+  display: block;
+  background-color: #3a3a3a;
+  text-align: center;
+  overflow: hidden;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  height: 60px;
+}
+
+.navBarFont {
+  /* nav bar details and styling*/
+  display: inline-block;
+  gap: 10px;
+  padding: 0.5%;
+  color: #f5f5f7;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-style: normal;
+  font-weight: lighter;
+  font-size: 12px;
+  align-items: center;
+}
+
+.navBarImages {
+  display: inline-block;
+  padding: 0px;
+}
+
+.header {
+  display: block;
+  text-align: center;
+  background-color: #f5f5f7;
+  padding: 10px;
+  font-family: Verdana;
+  font-size: 12px;
+}
+
+.heroImage {
+  margin: 0px;
+  padding: 0px;
+  zoom: 180%;
+  display: inline-block;
+}
+
+.iproStyle {
+  margin: 0px;
+  text-align: center;
+  display:block;
+  background-color: #fbfbfd;
+}
+
+h1 {
+  padding: 30px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 45px;
+}
+
+h4 {
+  margin: 0px;
+  padding: 0px;
+  font-family: SF Pro;
+  font-size: 20px;
+  font-weight: lighter;
+}
+.linkMovement {
+  text-align: center;
+  position: relative;
+}
+
+.iphostyleheader {
+  margin: 0px;
+  text-align: center;
+  background-color: #35283c;
+  font-weight: lighter;
+}
+
+.iphotxtstyle {
+  text-align: center;
+  display: block;
+  background-color: #35283c;
+  color: white;
+  margin: 0px;
+  padding: 0px;
+}
+.macstyleheader {
+  margin: 0px;
+  display: block;
+  text-align: center;
+  background-color: #fbfbfd;
+  font-weight: bold;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.mactxtstyle {
+  text-align: center;
+  display: block;
+  background-color: #fbfbfd;
+}
+.wrapper {
+  display: flex;
+  flex-direction: table;
+}
+.asideleft {
+  order: 0;
+  text-align: center;
+  background-color: #fbfbfd;
+  margin: 0px;
+  padding: 0px;
+  max-width: 100%;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.asideright {
+  order: 1;
+  text-align: center;
+  background-color: #fbfbfd;
+  margin: 0px;
+  padding: 0px;
+  max-width: 100%;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
